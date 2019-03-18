@@ -1,0 +1,157 @@
+/* #2 #colorful #palette is:
+  * Background: #F5F5F5 (GREY 100)
+  * Primary Text: black
+
+  * Primary color: #3F51B5 (INDIGO)
+  * Primary color_text : white
+  * Accent color: #CDDC39 (LIME)
+  * Accent color_text: black
+  */
+
+
+
+/*------------------- Global -------------------*/
+   /*global styles */
+   * {
+   /* #2 #font #faces, must be the same font family declared in HTML file */
+   font-family: 'Roboto', sans-serif;
+   }
+
+   body {
+   /* #2 #colorful #background */
+   background-color: #F5F5F5;
+   }
+
+
+/*------------------- App bar -------------------*/
+  .C_App-bar{
+   /* #2 #colourful #app-bar */
+   background-color: rgb(7, 84, 117);
+   color: white;
+   margin: 0;
+   }
+   /* #Duck #Picture main bar*/
+   .C_MainBar-Pic{
+      height:40px;
+      padding-left: 5px;
+      padding-top: 5px;
+      vertical-align: baseline;
+     }
+
+/*------------------- Channels list -------------------*/
+   /* #Tab bar Background  and chanel list*/
+   #ID_Chanel_Y_Tab-bar{
+      background-color:rgb(255, 255, 255);
+      margin: 0;
+     /* border:  0.1px solid rgb(255, 255, 255);*/
+      padding-top: 0;
+     }
+
+   /* #Stars Stars height */
+   .C_Stars{
+      height:14px;
+      vertical-align: baseline;
+   }
+
+   ul {
+      /* #2 #colorful #background */
+      background-color: rgb(255, 255, 255);
+      padding-left: 0;
+      margin: 0;
+   }
+
+   /* #Chanel */
+   .C_Chanel{
+      padding: 16px;
+      font-size: 16px;
+   }
+
+   /* #Chanel top border */
+   .C_Chanel-top-line{
+      border-top: 0.3px solid rgb(197, 175, 175);
+   }
+   
+
+
+   /* #Selected Chanel */
+   .C_Chanel-Selected{
+      border-left: 4px solid red;
+   }
+   
+
+/*------------------- Tab bar -------------------*/
+   /*Tab bar buttons*/
+   .C_Tab-buttons{
+    background-color: rgb(255, 255, 255);
+    color: rgb(0, 0, 0);
+    font-size: 13px;
+    border-style: none;
+    width: 33%;
+    height: 72px;
+   }
+
+   /* #Button picture height */
+   .C_Pic-Tab-bar{
+    height:24px;
+    margin-bottom: 4px;
+   }   
+
+   /* #Selected buttons */
+   .C_Selected{
+      border-bottom: 4px solid red;
+   }
+/*------------------- Messages -------------------*/
+   /*styles for Messages*/
+
+   .C_container{
+   /* #2 #font #Container */
+   width: 80%;
+   margin-bottom: 8px;
+   margin-left:2.5%;
+   }
+
+  .C_Message{
+   background-color: rgb(255, 255, 255); 
+   padding: 16px;
+   text-align: left;
+   width:inherit;
+   }
+
+   .C_Message-Right{
+    margin-left:17.5%;
+    }
+
+
+
+   .C_Metadata{
+   /* #2 #font #metadata is now medium */
+   font-size: medium;
+   }
+   
+   button {
+    /* #2 #colourful #plusfive */
+    background-color: rgba(147, 255, 6, 0.459);
+    color: rgb(0, 0, 0);
+    text-align: center;
+    /* #2 #font capital #letters */
+    } 
+
+    em {
+     /* #2 #font #remaining overrides the default italic appearance of em elements*/
+     font-size: larger;
+     font-style: normal;
+     }
+
+    button,strong {
+    /* #2 #font #locations need an extra element, we'll use strong for w3w locations */
+    text-transform: uppercase;
+    }
+
+
+
+
+
+
+
+
+
